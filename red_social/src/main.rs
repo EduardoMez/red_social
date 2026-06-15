@@ -15,7 +15,7 @@ fn main() {
     let red = construir_red();
 
     //Mostrar personas y amistades 
-    println!("👥 Personas en la red:");
+    println!(" Personas que hay en la red:");
     let mut nombres: Vec<&String> = red.nodos.keys().collect();
     nombres.sort();
     for nombre in &nombres {
